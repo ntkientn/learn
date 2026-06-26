@@ -258,13 +258,24 @@
         const searchResults = document.getElementById('search-results');
         const searchDetail = document.getElementById('search-detail');
 
+        // Thay đoạn addEventListener cũ bằng đoạn này:
+        let debounceTimer;
+        const searchInput = document.getElementById('search-input');
+        
         searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase().trim();
-            if (query.length > 1) {
-                executeSearch(query);
-            } else {
-                closeModal();
-            }
+            // 1. Xóa bộ đếm cũ nếu có
+            clearTimeout(debounceTimer);
+            
+            // 2. Thiết lập bộ đếm mới (đợi 300ms)
+            debounceTimer = setTimeout(() => {
+                const query = e.target.value.toLowerCase().trim();
+                if (query.length > 1) {
+                    executeSearch(query);
+                } else {
+                    // Nếu xóa hết từ khóa, đóng modal
+                    if (query.length === 0) closeModal();
+                }
+            }, 300); // 300ms là khoảng thời gian chờ lý tưởng cho người dùng gõ
         });
 
         function executeSearch(query) {
