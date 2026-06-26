@@ -1,0 +1,22 @@
+{
+  "program_id": "prog_02",
+  "title": "Quản lý Thời gian",
+  "desc": "Tối ưu hóa năng suất cá nhân và kỹ năng phân bổ công việc theo ma trận Eisenhower.",
+  "modules": [
+    {
+      "module_id": "mod_02",
+      "title": "Module 1: Phân loại công việc",
+      "goal": "Phân biệt được cái gì là khẩn cấp và cái gì là quan trọng.",
+      "knowledge": "Sử dụng Ma trận Eisenhower: (1) Quan trọng & Khẩn cấp, (2) Quan trọng & Không khẩn cấp, (3) Không quan trọng & Khẩn cấp, (4) Không quan trọng & Không khẩn cấp.",
+      "skills": [
+        {
+          "skill_id": "sk_02",
+          "name": "Kỹ thuật Time-Blocking",
+          "content": "Chia nhỏ quỹ thời gian trong ngày thành các khối cố định cho từng đầu việc.",
+          "practical_example": "Dành 2 tiếng buổi sáng sớm cho các việc 'Quan trọng & Không khẩn cấp'.",
+          "estimated_time": "10 phút"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "program_id": "prog_01",
+  "title": "Tư duy Hệ thống trong Giao tiếp & Đàm phán",
+  "desc": "Chương trình huấn luyện cách tiếp nhận, phân tích và phản hồi thông tin có chủ đích, <b>tập trung vào kỹ năng thuyết phục đối tác</b>.",
+  "modules": [
+    {
+      "module_id": "mod_01",
+      "title": "Module 1: Sàng lọc và Phân tích Yêu cầu",
+      "goal": "Tìm ra động cơ thật sự của đối tác thay vì chỉ phản ứng với bề nổi.",
+      "knowledge": "Quy trình xử lý thông tin gồm: Thu thập &rarr; Rút tỉa &rarr; Phân tích &rarr; Xử lý &rarr; Ra quyết định.",
+      "skills": [
+        {
+          "skill_id": "sk_01",
+          "name": "Khai thác Động cơ Ẩn (Hidden Motive)",
+          "content": "Sử dụng bộ câu hỏi đào sâu để tìm mục đích thực sự. <br><br><b>Các bước thực hiện:</b><ul><li>Lắng nghe không ngắt lời</li><li>Xác nhận lại thông tin (Paraphrase)</li><li>Hỏi câu hỏi 'Tại sao' thứ 2 và thứ 3</li></ul><br><img src='https://placehold.co/600x200/1f2937/ffffff?text=Mindset+Map' alt='Sơ đồ tư duy' class='w-full rounded mt-2 border border-gray-600' />",
+          "practical_example": "Khi đối tác bất động sản yêu cầu <i>lắp đặt miễn phí hệ thống IoT Smart Home cho nhà mẫu</i> để đổi lấy quảng cáo. Thay vì từ chối hoặc chịu lép vế, cần phân tích xem họ thực sự đánh giá cao tính năng của hệ thống, hay chỉ đơn thuần muốn một 'điểm nhấn' marketing không tốn phí.",
+          "estimated_time": "15 phút"
+        }
+      ],
+      "practices": [
+        {
+          "practice_id": "prac_01",
+          "task": "Thực hành Đặt câu hỏi Đảo ngược",
+          "content": "Dựa trên tình huống bị ép giá, hãy viết ra 3 câu hỏi ngược lại cho đối tác để xác định lại vị thế đàm phán và chuyển hướng sang việc <b>thu phí thiết bị</b>.",
+          "practical_example": "Ví dụ: <br><i>'Nếu hệ thống này giúp anh chị tăng 10% tỷ lệ chốt sale căn hộ, anh chị định giá giá trị gia tăng đó là bao nhiêu để chúng ta cùng chia sẻ chi phí đầu tư?'</i>",
+          "estimated_time": "20 phút"
+        }
+      ]
+    }
+  ]
+}
