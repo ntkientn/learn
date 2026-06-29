@@ -1,30 +1,175 @@
 {
-  "meta": { "version": "1.0", "category": "Soft Skills", "difficulty": 2 },
-  "title": "Tư duy Hệ thống trong Giao tiếp & Đàm phán",
-  "desc": "Chương trình huấn luyện cách tiếp nhận, phân tích và phản hồi thông tin có chủ đích, tập trung vào kỹ năng thuyết phục đối tác.",
+  "program_id": "prog_001",
+  "title": "Kỹ năng Giao tiếp Chuyên nghiệp",
+  "desc": "Chương trình học <b>Tư Duy Hệ Thống trong giao tiếp & đàm phán</b>, huấn luyện <b>phương pháp và kỹ năng</b> tiếp nhận, phân tích và phản hồi thông tin một cách có chủ đích, thông minh, chuyên nghiệp, thuyết phục người nghe.",
   "modules": [
     {
       "id": "mod_01",
-      "title": "Module 1: Sàng lọc và Phân tích Yêu cầu",
+      "title": "Module 1 - TƯ DUY GIAO TIẾP CHIẾN LƯỢC (MINDSET & POSITIONING)",
+      "goal": [
+        "Xóa bỏ cảm giác mình non kém, định vị bản thân ở thế cân bằng và chủ động trong mọi cuộc hội thoại.",
+        "<b>Xác lập Vị thế (Status Signaling):</b> Cách sử dụng ngôn ngữ cơ thể, tông giọng, khoảng dừng (pauses) để tạo uy lực (gravitas) mà không cần nói nhiều.<br>",
+        "<b>Tư duy Nhắm đích (Goal-Oriented Communication):</b> Luôn xác định \"Tôi muốn họ làm gì/nghĩ gì sau cuộc nói chuyện này?\" trước khi mở lời.<br>",
+        "<b>Tâm lý học Hành vi trong giao tiếp:</b> Đọc vị động cơ của đối phương (Khách hàng sợ gì? Sếp cần gì? Cấp dưới muốn gì?) để cấu trúc thông tin trúng đích.<br>"
+      ],
+      "content": [
+        "<b>Frame Control:</b> Giữ vững vị thế chuyên gia, không rơi vào bẫy phòng thủ.",
+        "<b>Detachment & BATNA:</b> Thái độ độc lập, luôn biết rõ điểm lùi (walk-away point).",
+        "<b>Status Signaling:</b> Làm chủ nhịp độ, khoảng dừng, giọng nói và ngôn ngữ cơ thể.",
+        "<b>Emotional Stoicism:</b> Xử lý các đòn tâm lý bằng tư duy phân tích dữ liệu.",
+        "<b>Quy trình 5 Bước Thực thi:</b> (Định vị -> Đóng gói -> Đặt câu hỏi -> Neo giá trị -> Chốt)."
+      ],    
       "parts": [
         {
-          "id": "p1",
-          "title": "Khai thác Động cơ Ẩn (Hidden Motive)",
-          "content": "Sử dụng bộ câu hỏi đào sâu để tìm mục đích thực sự của đối tác.",
-          "is_completed": false,
+          "id": "part_01_01",
+          "title": "1. Kỹ năng Kiểm soát \"Khung Giao Tiếp\" (Frame Control)",
+          "content": [
+            "<i><b>> VD tình huống thực tế:</b> Khi gặp một số đối tác để giới thiệu về hệ thống IoT Smart Home công ty tôi cung cấp, tôi đọc ra được họ đa số là công ty bất động sản muốn chúng tôi cung cấp hệ thống cho nhà mẫu của họ để làm 1 điểm thu hút cho khách hàng, họ không thật sự cần hay yêu thích tính năng hiện đại hữu ích của hệ thống. Họ thương luọng bên tôi lắp đặt free cho họ tại nhà mẫu, bù lại bên tôi sẽ được quảng cáo và tiếp cận khách hàng bên họ. Tôi muốn đạt được thỏa thuận có trả phí cho việc mua thiết bị, lắp đặt... nhưng không thuyết phục được họ, và họ luôn tỏ ra trên cơ tôi, cho rằng bên tôi cần họ chứ họ không cần bên tôi.</i>",
+            "Trong bất kỳ cuộc đối thoại nào, luôn có một \"Khung\" (Frame) được thiết lập ngầm định. Người nào làm chủ Khung, người đó dẫn dắt cuộc chơi. Khi anh cảm thấy \"dưới cơ\", đó là lúc anh đã bước vào Khung của đối tác. <br>- Khung Của Họ (Power Frame): \"Tôi là người có tiền/có dự án, anh là vendor đang cần tôi. Anh phải chứng minh anh xứng đáng.\" <br>- Khung Của Anh (Expert Frame / Prize Frame): \"Tôi là chuyên gia có giải pháp giúp dự án của anh sinh lời và an toàn. Thời gian và nguồn lực của tôi là có hạn, tôi đang xem xét xem dự án của anh có phù hợp để chúng tôi đầu tư nguồn lực vào hay không.\" <br>- Cách ứng dụng: Không bao giờ phản ứng mang tính phòng thủ (defensive) khi bị dồn ép. Khi họ ép Khung quyền lực (VD: \"Bên anh làm free đi\"), thay vì giải thích xin xỏ, anh dùng Khung Phân tích rủi ro để phá vỡ nó (như cách chúng ta đã phân tích ở ví dụ BĐS).",
+            "Thực tế trên bàn đàm phán, não bộ chúng ta có thể bị \"đứng hình\" (freeze) trong vài giây khi bị đối phương tấn công bất ngờ, và không phải lúc nào \"Khung Rủi ro\" cũng xuất hiện ngay lập tức. <br>Trong giao tiếp chiến lược, ngoài Khung Rủi ro, ta có 3 loại Khung thay thế và 1 Kỹ thuật Phanh khẩn cấp để ngay lập tức giành lại quyền kiểm soát."
+          ], 
           "subparts": [
-            { "title": "Quy trình thực hiện", "content": "Lắng nghe không ngắt lời, Xác nhận lại thông tin (Paraphrase), Hỏi câu hỏi 'Tại sao' thứ 2 và thứ 3." },
-            { "title": "Ví dụ thực tế", "content": "Tình huống lắp đặt miễn phí hệ thống IoT cho nhà mẫu để đổi lấy quảng cáo. Cần phân tích liệu họ coi trọng tính năng hay chỉ muốn làm marketing giá rẻ." }
+            { "id": "sub_01_01_01", 
+              "title": "1.1. Khung Rủi ro (The Risk Frame)", 
+              "content": [
+                "Cơ sở Tâm lý học: Thiên kiến Sợ mất mát (Loss Aversion). Nguyên lý kinh điển trong Kinh tế học Hành vi**: Con người sợ cảm giác \"mất đi\" (loss) hơn là khao khát cảm giác \"được thêm\" (gain). <br>- \"Nếu anh mua hệ thống IoT này, nhà mẫu của anh sẽ hiện đại hơn, chốt sale dễ hơn.\" -> Não bộ của đối phương tiếp nhận thông tin này là một \"Optio\" (Có cũng được, không có cũng không sao).<br> - \"Nếu hệ thống nhà mẫu gặp sự cố trong ngày mở bán mở bán VIP mà không có vendor túc trực xử lý, hình ảnh dự án cao cấp sẽ bị ảnh hưởng nghiêm trọng.\" -> Não bộ đối phương lập tức bật chế độ \"Báo động\" và xem giải pháp của anh là một \"Must-have\" (Bắt buộc phải có để phòng thân).",
+                "Khi sử dụng Khung Rủi ro, vị thế của bạn trong mắt đối phương thay đổi hoàn toàn: <br> - Từ: Vendor/Seller đang cố gắng thuyết phục họ bỏ tiền ra. <br>- Trở thành: Cố vấn An toàn (Trusted Advisor / Auditor). <br>Bạn đang bảo vệ họ khỏi những nguy cơ mà họ chưa nhìn thấy. Người ta có thể mặc cả với người bán hàng, nhưng rất hiếm khi dám mặc cả với bác sĩ hay cố vấn rủi ro.",
+                "Để Khung Rủi ro phát huy tác dụng mà không nghe giống như anh đang dọa nạt hay trù ẻo họ, anh phải tuân thủ công thức \"Khen ngợi/Ghi nhận trước - Lật vấn đề sau\".<br>VD: \"Tôi hiểu việc cắt giảm gói bảo trì sẽ giúp ngân sách phase 1 của dự án trông đẹp hơn rất nhiều.\" <br>-> \"Tuy nhiên, hệ thống smarthome khác với phần cứng thông thường, chi phí thực sự không nằm ở thiết bị mà nằm ở O&M (Vận hành & Bảo trì). Rủi ro là nếu server kẹt lệnh vào cuối tuần, chúng ta sẽ không có SLA để gọi đội support.\" <br>-> (Be the Safety Net) Đưa ra giải pháp của mình như một chiếc phao cứu sinh để vô hiệu hóa rủi ro đó. \"Đó là lý do em thiết kế gói Co-investment này, để đảm bảo các anh có một hệ thống mượt mà mà vẫn quản trị được rủi ro gián đoạn vận hành.\".",
+                "<b>3 loại Rủi ro kinh điển </b> để lôi ra làm vũ khí: Rủi ro Vận hành / Kỹ thuật (Operational Risk), Rủi ro Thương hiệu / Uy tín (Reputational Risk), Rủi ro Trách nhiệm cá nhân (Accountability Risk).",
+                "<b>* Lưu ý quan trọng:</b> Khung Rủi ro giống như thuốc kháng sinh liều cao. Rất hiệu quả, nhưng không được lạm dụng. Chỉ dùng khi anh đang bị ép vào góc tường (ép giá vô lý, đòi hỏi quá đáng) hoặc đối phương đang tỏ ra quá chủ quan."
+              ] 
+            },
+            { "id": "sub_01_01_02", 
+              "title": "1.2. Khung Quy trình & Đánh đổi (The PM / Trade-off Frame)", 
+              "content": [
+                "Đây là sở trường của PM như anh. Bất cứ khi nào đối phương ép Khung Quyền lực (ép giá, ép tiến độ, ép thêm scope), anh hãy kéo họ vào Khung Quản trị Dự án (Scope - Time - Cost / Chất lượng).<br>- Anh không từ chối, anh chỉ yêu cầu họ cùng anh giải bài toán đánh đổi.",
+                "<b>Tình huống Khách hàng dồn ép:</b> \"Anh muốn đẩy nhanh tiến độ lên 2 tuần. Bên em phải cố gắng OT để làm cho xong kịp sự kiện.\" (Họ đang ép anh vào Khung \"Vendor phải phục tùng\").",
+                "Cách giật lại Khung: Không cãi, không giải thích sự khó khăn.<br>- Phản hồi: \"Đồng ý, tôi hiểu tiến độ này rất quan trọng với sự kiện của công ty anh. Để rút ngắn 2 tuần (Time) mà vẫn giữ nguyên các tính năng này (Scope), chúng ta có 2 option: Một là anh duyệt tăng ngân sách để tôi thuê thêm chuyên gia ngoài (Cost), hai là chúng ta tạm cắt tính năng B và C ra khỏi phase 1. Anh muốn ưu tiên hướng nào?\"<br>- Hiệu ứng: Anh đẩy quả bóng quyết định ngược lại cho họ. Họ từ thế \"người ra lệnh\" bị kéo vào thế \"người phải lựa chọn và chịu trách nhiệm\". </b> "
+              ] 
+            },
+            { "id": "sub_01_01_03", 
+              "title": "1.3. Khung Bức tranh lớn (The Big Picture Frame)", 
+              "content": [
+                "Khung này dùng khi đối phương đang \"bắt bẻ\" những chi tiết nhỏ, hoặc dùng những tiểu tiết để hạ thấp giá trị của anh. Cách giành lại quyền kiểm soát là \"Zoom out\" (kéo giãn góc nhìn) để nhắc họ nhớ lý do thực sự họ ngồi đây với anh là gì.",
+                "<b>Tình huống ép: Đối tác săm soi: \"Thiết bị bên em tôi thấy vỏ nhựa không đẹp bằng hãng X, giao diện app cũng chưa mượt bằng, mà sao giá lại chênh thế?\".</b> <br>- Cách giật lại Khung: Đừng sa đà vào việc giải thích vỏ nhựa hay UI/UX. Kéo họ lên bức tranh High-level. <br>- Phản hồi: \"Anh nhận xét rất tinh tế về mặt thị giác. Tuy nhiên, nếu chúng ta nhìn lại mục tiêu cốt lõi của dự án này: thứ quyết định sự hài lòng của cư dân sau 5 năm sống ở đây không phải là cái vỏ nhựa, mà là hệ thống server không bị treo khi có 10.000 thiết bị truy cập cùng lúc. Đó chính là phần lõi công nghệ mà bên tôi tập trung ngân sách vào. Chúng ta nên ưu tiên thẩm mỹ bề ngoài hay tính ổn định lâu dài?\" "
+              ] 
+            },
+            { "id": "sub_01_01_04", 
+              "title": "1.4. Khung Khám phá (The Curiosity / Socratic Frame)", 
+              "content": [
+                "Khi anh hoàn toàn chưa nghĩ ra được cách bẻ gãy lập luận của họ, đừng đưa ra câu trả lời, hãy đưa ra câu hỏi. Việc đặt câu hỏi sẽ buộc họ phải tự giải thích lập luận của mình, và trong lúc họ nói, anh có thêm thời gian để phân tích lỗ hổng của họ.",
+                "<b>Tình huống ép: Đối tác kiên quyết: \"Bên anh phải giảm giá 20% thì sếp tôi mới chịu ký.\".</b> <br>- Cách giật lại Khung: Dùng sự tò mò điềm tĩnh. <br>- Phản hồi: (Khoảng dừng 2 giây) \"Con số 20% này là một yêu cầu khá đặc thù. Nó dựa trên cơ sở định giá nào từ phía các anh? Hay đây là ngân sách tối đa (budget cap) mà sếp anh đã chốt cho hạng mục này?\"<br> - Hiệu ứng: Nếu họ chỉ nói thách, họ sẽ lúng túng khi bị hỏi cơ sở. Nếu đó là budget cap thật, anh đã có thông tin để chuyển sang Khung Đánh đổi (Cắt giảm tính năng cho vừa budget)."
+              ] 
+            },
+            { "id": "sub_01_01_05", 
+              "title": "1.5. KỸ THUẬT PHANH KHẨN CẤP: Khi não hoàn toàn \"trắng xóa\"", 
+              "content": [
+                "Sẽ có những lúc đối phương tấn công quá mạnh, quá bất ngờ, và anh chưa kịp Load bất kỳ Khung nào ở trên. Trong tình huống này, nguyên tắc tối thượng là: <b>Không bao giờ chốt hạ, đồng ý, hay phản bác ngay lập tức.</b>",
+                "Anh hãy sử dụng quyền Time-out (Dừng trận đấu) bằng một kỹ thuật gọi là <b>\"Ghi nhận & Treo vấn đề\"</b>. <br> - Phản hồi (Giọng cực kỳ bình thản): \"Yêu cầu này của anh rất thú vị và đi ngoài phạm vi chúng ta vừa thống nhất ban đầu. Để đảm bảo tính khả thi, tôi cần ghi nhận lại điểm này để bàn bạc với team kỹ thuật/ban giám đốc bên tôi. Tôi sẽ phản hồi lại anh điểm này vào sáng mai. Bây giờ chúng ta đi tiếp sang hạng mục tiếp theo nhé.\" <br>- Cách nói này thể hiện sự chuyên nghiệp tuyệt đối, không hề nao núng, tôn trọng đối tác nhưng vẫn giữ chặt ranh giới (boundary) của bản thân."
+              ] 
+            }
           ]
         },
         {
-          "id": "p2",
-          "title": "Thực hành Đặt câu hỏi Đảo ngược",
-          "content": "Xác định lại vị thế đàm phán khi bị ép giá.",
-          "is_completed": false,
+          "id": "part_01_02",
+          "title": "2. Detachment & BATNA: Thái độ độc lập, luôn biết rõ điểm lùi (walk-away point)",
+          "content": [
+            "<i><b>> VD tình huống thực tế:</b> Khi gặp một số đối tác để giới thiệu về hệ thống IoT Smart Home công ty tôi cung cấp, tôi đọc ra được họ đa số là công ty bất động sản muốn chúng tôi cung cấp hệ thống cho nhà mẫu của họ để làm 1 điểm thu hút cho khách hàng, họ không thật sự cần hay yêu thích tính năng hiện đại hữu ích của hệ thống. Họ thương luọng bên tôi lắp đặt free cho họ tại nhà mẫu, bù lại bên tôi sẽ được quảng cáo và tiếp cận khách hàng bên họ. Tôi muốn đạt được thỏa thuận có trả phí cho việc mua thiết bị, lắp đặt... nhưng không thuyết phục được họ, và họ luôn tỏ ra trên cơ tôi, tôi cần họ chứ họ không cần tôi.</i>",
+            "",
+            ""
+          ], 
           "subparts": [
-            { "title": "Bài tập", "content": "Viết 3 câu hỏi ngược lại cho đối tác để chuyển hướng từ 'miễn phí' sang 'thu phí thiết bị'." },
-            { "title": "Câu hỏi mẫu", "content": "'Nếu hệ thống này giúp anh chị tăng 10% tỷ lệ chốt sale, anh chị định giá giá trị gia tăng đó là bao nhiêu?'" }
+            { "id": "sub_01_02_01", 
+              "title": "2.1. Sub part 2.1", 
+              "content": [
+                "Cơ sở Tâm lý học: Thiên kiến Sợ mất mát (Loss Aversion). Nguyên lý kinh điển trong Kinh tế học Hành vi**: Con người sợ cảm giác \"mất đi\" (loss) hơn là khao khát cảm giác \"được thêm\" (gain). <br>- \"Nếu anh mua hệ thống IoT này, nhà mẫu của anh sẽ hiện đại hơn, chốt sale dễ hơn.\" -> Não bộ của đối phương tiếp nhận thông tin này là một \"Optio\" (Có cũng được, không có cũng không sao).<br> - \"Nếu hệ thống nhà mẫu gặp sự cố trong ngày mở bán mở bán VIP mà không có vendor túc trực xử lý, hình ảnh dự án cao cấp sẽ bị ảnh hưởng nghiêm trọng.\" -> Não bộ đối phương lập tức bật chế độ \"Báo động\" và xem giải pháp của anh là một \"Must-have\" (Bắt buộc phải có để phòng thân).",
+                "<b>Lưu ý quan trọng:</b> Khung Rủi ro giống như thuốc kháng sinh liều cao. Rất hiệu quả, nhưng không được lạm dụng. Chỉ dùng khi anh đang bị ép vào góc tường (ép giá vô lý, đòi hỏi quá đáng) hoặc đối phương đang tỏ ra quá chủ quan."
+              ] 
+            },
+            { "id": "sub_01_02_02", 
+              "title": "2.2. Sub part 2.2", 
+              "content": [
+                "Đây là sở trường của PM như anh. Bất cứ khi nào đối phương ép Khung Quyền lực (ép giá, ép tiến độ, ép thêm scope), anh hãy kéo họ vào Khung Quản trị Dự án (Scope - Time - Cost / Chất lượng).<br>- Anh không từ chối, anh chỉ yêu cầu họ cùng anh giải bài toán đánh đổi.",
+                "<b>Tình huống Khách hàng dồn ép:</b> \"Anh muốn đẩy nhanh tiến độ lên 2 tuần. Bên em phải cố gắng OT để làm cho xong kịp sự kiện.\" (Họ đang ép anh vào Khung \"Vendor phải phục tùng\").",
+                "- Cách giật lại Khung: Không cãi, không giải thích sự khó khăn.<br>- Phản hồi: \"Đồng ý, tôi hiểu tiến độ này rất quan trọng với sự kiện của công ty anh. Để rút ngắn 2 tuần (Time) mà vẫn giữ nguyên các tính năng này (Scope), chúng ta có 2 option: Một là anh duyệt tăng ngân sách để tôi thuê thêm chuyên gia ngoài (Cost), hai là chúng ta tạm cắt tính năng B và C ra khỏi phase 1. Anh muốn ưu tiên hướng nào?\"<br>- Hiệu ứng: Anh đẩy quả bóng quyết định ngược lại cho họ. Họ từ thế \"người ra lệnh\" bị kéo vào thế \"người phải lựa chọn và chịu trách nhiệm\". </b> "
+              ] 
+            },
+            { "id": "sub_01_02_03", 
+              "title": "2.3. Sub part 2.3", 
+              "content": [
+                "Khung này dùng khi đối phương đang \"bắt bẻ\" những chi tiết nhỏ, hoặc dùng những tiểu tiết để hạ thấp giá trị của anh. Cách giành lại quyền kiểm soát là \"Zoom out\" (kéo giãn góc nhìn) để nhắc họ nhớ lý do thực sự họ ngồi đây với anh là gì.",
+                " <b>Tình huống ép: Đối tác săm soi: \"Thiết bị bên em tôi thấy vỏ nhựa không đẹp bằng hãng X, giao diện app cũng chưa mượt bằng, mà sao giá lại chênh thế?\".</b> <br>- Cách giật lại Khung: Đừng sa đà vào việc giải thích vỏ nhựa hay UI/UX. Kéo họ lên bức tranh High-level. <br>- Phản hồi: \"Anh nhận xét rất tinh tế về mặt thị giác. Tuy nhiên, nếu chúng ta nhìn lại mục tiêu cốt lõi của dự án này: thứ quyết định sự hài lòng của cư dân sau 5 năm sống ở đây không phải là cái vỏ nhựa, mà là hệ thống server không bị treo khi có 10.000 thiết bị truy cập cùng lúc. Đó chính là phần lõi công nghệ mà bên tôi tập trung ngân sách vào. Chúng ta nên ưu tiên thẩm mỹ bề ngoài hay tính ổn định lâu dài?\" "
+              ] 
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod_02",
+      "title": "Module 2 - ",
+      "goal": [
+                "Nói năng gãy gọn, logic, xử lý thông tin hiệu quả, tạo cảm giác \"sắc bén\" và \"đáng tin cậy\".",
+                "<b>Các Framework tư duy kinh điển:</b> Áp dụng mô hình Minto Pyramid (Nói kết luận trước), McKinsey SCQA (Situation-Complication-Question-Answer), hoặc STAR để báo cáo, đề xuất giải pháp.<br>",
+                "<b>Nghệ thuật Đặt câu hỏi Khai thác (Discovery Questions):</b> Thay vì giải thích, học cách dùng câu hỏi để dẫn dắt đối phương tự nhận ra vấn đề (Socratic Method) – đây là vũ khí tối thượng của PM khi làm việc với đối tác/khách hàng.<br>",
+                "<b>Nói chuyện High-level:</b> Cách \"đóng gói\" kiến thức rộng của anh thành các khái niệm đơn giản, cô đọng, dễ hiểu nhưng tầm vóc (Executive Summary style).<br>"
+      ],
+      "content": [
+          "<b>Các Framework tư duy kinh điển:</b> Áp dụng mô hình Minto Pyramid (Nói kết luận trước), McKinsey SCQA (Situation-Complication-Question-Answer), hoặc STAR để báo cáo, đề xuất giải pháp.<br>",
+          "<b>Nghệ thuật Đặt câu hỏi Khai thác (Discovery Questions):</b> Thay vì giải thích, học cách dùng câu hỏi để dẫn dắt đối phương tự nhận ra vấn đề (Socratic Method) – đây là vũ khí tối thượng của PM khi làm việc với đối tác/khách hàng.<br>",
+          "<b>Nói chuyện High-level:</b> Cách \"đóng gói\" kiến thức rộng của anh thành các khái niệm đơn giản, cô đọng, dễ hiểu nhưng tầm vóc (Executive Summary style).<br>"
+      ],
+      "parts": [
+        {
+          "id": "part_01",
+          "title": "Kỹ thuật lắng nghe chủ động",
+          "content": "Nội dung chi tiết về lắng nghe...",
+          "subparts": [
+            { "id": "sub_01_01", "title": "Lắng nghe không ngắt lời", "content": "Chi tiết subpart 1..." },
+            { "id": "sub_01_01_02", "title": "Xác nhận lại thông tin", "content": "Chi tiết subpart 2..." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod_03",
+      "title": "Module 3 - KHÁC BIỆT HÓA THEO ĐỐI TƯỢNG (CONTEXTUAL ADAPTABILITY)",
+      "goal": "Tùy biến linh hoạt từ môi trường công việc áp lực cao đến không gian ấm cúng gia đình.",
+      "content": "<ul class='list-disc pl-5 space-y-4'><li><b>Xác lập Vị thế (Status Signaling):</b> Cách sử dụng ngôn ngữ cơ thể, tông giọng, khoảng dừng (pauses) để tạo uy lực (gravitas) mà không cần nói nhiều.</li><li><b>Tư duy Nhắm đích (Goal-Oriented Communication):</b> Luôn xác định \"Tôi muốn họ làm gì/nghĩ gì sau cuộc nói chuyện này?\" trước khi mở lời.</li><li><b>Tâm lý học Hành vi trong giao tiếp:</b> Đọc vị động cơ của đối phương (Khách hàng sợ gì? Sếp cần gì? Cấp dưới muốn gì?) để cấu trúc thông tin trúng đích.</li></ul>",
+      "parts": [
+        {
+          "id": "part_01",
+          "title": "Kỹ thuật lắng nghe chủ động",
+          "content": [
+            "<b>Upward Communication (Với Sếp/Khách hàng lớn):</b> Ngắn gọn, tập trung vào Risk (Rủi ro) - Resource (Nguồn lực) - Impact (Tác động). Mang lại sự \"yên tâm\".<br>",
+            "<bPeer & Downward Communication (Với Đồng nghiệp/Cấpưới):</b> Thuyết phục bằng logic + Truyền cảm hứng, giao việc rõ ràng (Clear Accountability), lắng nghe thấu cảm.<br>",
+            "<b>Commercial & Negotiation (Với Đối tác/Khách hàng):</b> Kỹ thuật đàm phán Win - Win, xử lý từ chối (Handling Objections), bảo vệ lợi ích đội ngũ mà không gây mất lòng.<br>",
+            "<b>Social & Personal (Với Người thân/Bạn bè):</b> Hạ bớt tính \"logic/phân tích\", tăng tính \"thấu hiểu/kết nối\", sử dụng sự hóm hỉnh và năng lượng tích cực từ các tài lẻ (thể thao, âm nhạc) để tạo sự gần gũi..<br>"
+          ],
+          "subparts": [
+            { "id": "sub_01_01", "title": "Lắng nghe không ngắt lời", "content": "Chi tiết subpart 1..." },
+            { "id": "sub_01_01_02", "title": "Xác nhận lại thông tin", "content": "Chi tiết subpart 2..." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mod_04",
+      "title": "Module 4 - KỸ NĂNG BIỂU DIỄN & TRUYỀN THÔNG NÂNG CAO (DELIVERY & PUBLIC SPEAKING)",
+      "goal": "Làm chủ đám đông, tự tin trước camera, làm chủ năng lượng bản thân.",
+      "content": [
+            "<b>Làm chủ Camera & Sân khấu:</b> Kỹ thuật ánh mắt (Eye-contact), kiểm soát nhịp thở, giải phóng ngôn ngữ hình thể.<br>",
+            "<b>Storytelling cho Người làm Tech:</b> Cách biến các con số, dữ liệu khô khan thành những câu chuyện có cấu trúc, có cảm xúc để thuyết phục người nghe.",
+            "<b>Ứng biến nhanh (Impromptu Speaking):</b> Kỹ thuật xử lý các câu hỏi hóc búa, câu hỏi \"bẫy\" từ khách hàng hoặc đối thủ một cách điềm tĩnh, chuyên nghiệp.<br>"
+      ],
+      "parts": [
+        {
+          "id": "part_01",
+          "title": "Kỹ thuật lắng nghe chủ động",
+          "content": "Nội dung chi tiết về lắng nghe...",
+          "subparts": [
+            { "id": "sub_01_01", "title": "Lắng nghe không ngắt lời", "content": "Chi tiết subpart 1..." },
+            { "id": "sub_01_01_02", "title": "Xác nhận lại thông tin", "content": "Chi tiết subpart 2..." }
           ]
         }
       ]
